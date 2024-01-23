@@ -48,12 +48,12 @@ class App {
       "#new-todo",
       TextSectionInput,
       (input: TextSectionInput) => {
-        const todos = input.body.split("\n"); // Assuming todos are separated by newline characters
+        const todos = input.body.split("\n");
         return new TodoComponent(input.title, todos);
       }
     );
 
-    // For demo :)
+    //DEMO VER.
     this.page.addChild(
       new NoteComponent(
         "Notice",
@@ -71,7 +71,7 @@ class App {
     );
     this.page.addChild(
       new VideoComponent(
-        "Winning Team,",
+        "2023 World Champions - SKT T1",
         "https://www.youtube.com/watch?v=yUWjUX78SzI"
       )
     );

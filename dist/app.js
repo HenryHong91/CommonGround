@@ -21,7 +21,7 @@ class App {
         this.page.addChild(new NoteComponent("Notice", `I have applied object-oriented programming (OOP) principles and leveraged TypeScript in this frontend projects`));
         this.page.addChild(new NoteComponent("Memo", `Henry- 02040156199, lvsy91@gmail.com`));
         this.page.addChild(new NoteComponent("Important", `Prepare client meeting about adding website functionality - Tuseday(23th) at 11am \n `));
-        this.page.addChild(new VideoComponent("Winning Team,", "https://www.youtube.com/watch?v=yUWjUX78SzI"));
+        this.page.addChild(new VideoComponent("2023 World Champions - SKT T1", "https://www.youtube.com/watch?v=yUWjUX78SzI"));
         this.page.addChild(new ImageComponent("Put your favourite picture", "https://picsum.photos/800/400"));
         this.page.addChild(new TodoComponent("Today Task List", [
             "Stay Calm😎",
